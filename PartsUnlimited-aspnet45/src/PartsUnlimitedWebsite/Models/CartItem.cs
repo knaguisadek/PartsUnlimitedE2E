@@ -3,9 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
-    //My first change.
+   // My first Change.
     public class CartItem : ILineItem
     {
+        // My Second Change
         [Key]
         public int CartItemId { get; set; }
 
